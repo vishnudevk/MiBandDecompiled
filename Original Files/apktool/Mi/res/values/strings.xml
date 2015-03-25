@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">About</string>
+    <string name="about_copyright" />
+    <string name="accept">Agree</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_local_ota">SD card update</string>
+    <string name="action_pop_about">About</string>
+    <string name="action_pop_my_bracelet">Mi Band Settings</string>
+    <string name="action_pop_person_info">My Profile</string>
+    <string name="action_pop_smart_alarms">Alarm</string>
+    <string name="action_pop_unlock_screen">Screen Unlock</string>
+    <string name="action_pop_weixin_enter">Sync with Wechat</string>
+    <string name="age">Age</string>
+    <string name="ages">years</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_cycle">Repeat</string>
+    <string name="alarm_device_not_connect">Please pair with a Mi Band before set Alarm.</string>
+    <string name="alarm_once">Once</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="alarm_repeat_title_format">Selected %s</string>
+    <string name="alarm_ring">Alarm</string>
+    <string name="alarm_setting">Alarm Setting</string>
+    <string name="am">AM</string>
+    <string name="apk_download_ok">Mi Band app download complete.</string>
+    <string name="apk_uptodate">You are currently using the latest version.</string>
+    <string name="app_exit_press_again">Tap back key again to exit</string>
+    <string name="app_info_version">"Version: %1$s
+Agreement: %2$s"</string>
+    <string name="app_name">Mi Band</string>
+    <string name="awake_format">, awake %1$s times.</string>
+    <string name="awake_format_1">, awake once.</string>
+    <string name="back">Back</string>
+    <string name="battery_charge_full">Battery charged</string>
+    <string name="battery_charging">Charging...</string>
+    <string name="battery_low_info">Battery low, please charge.</string>
+    <string name="before_min">%s min. ago</string>
+    <string name="bin_weixin_device_not_connect">Mi Band not connected.</string>
+    <string name="bind_bracelet">Found Mi Band</string>
+    <string name="bind_bracelet_ok">Paired successfully.</string>
+    <string name="bind_new_mili">Pair with new Mi Band</string>
+    <string name="bind_weixin_failed">Failed, please retry.</string>
+    <string name="bind_weixin_new_disable_tips">"After link with your Wechat account and follow Mi Band's Wechat service account, 
+you can check information like the number of steps taken through Wechat. You can also see your result status among your friends."</string>
+    <string name="bind_weixin_new_now">Syncing with Wechat, one moment...</string>
+    <string name="bind_weixin_new_tips">"Tap Link with Wechat to start, 
+then tap Follow to complete sync."</string>
+    <string name="bind_weixin_now">Generating QR code ...</string>
+    <string name="bind_weixin_qrcode_name">Mi Band QR code</string>
+    <string name="bind_weixin_save">Saved in Gallery,</string>
+    <string name="bind_weixin_succ">Successfully linked!</string>
+    <string name="bind_weixin_tips_1">Tap Generate QR code, generate and save a QR code in Gallery.</string>
+    <string name="bind_weixin_tips_2">Tap Open Wechat, enter Scan QR code and tap Album to select the QR code saved.</string>
+    <string name="bind_weixin_title">Sync to share and compete with friends.</string>
+    <string name="blue">Blue</string>
+    <string name="bluetooth">Bluetooth </string>
+    <string name="bmenu_device">Devices</string>
+    <string name="bmenu_dynamic">Updates</string>
+    <string name="bmenu_my">Me</string>
+    <string name="bracelet_info_battery">%s%%</string>
+    <string name="bracelet_info_deviceid">%s</string>
+    <string name="bracelet_info_fw_version">"Firmware: %1$s
+Agreement: %2$s"</string>
+    <string name="bracelet_info_mac_address">"Name: %1$s
+Address: %2$s"</string>
+    <string name="bracelet_login_info">Mi Cloud will provide professional suggestions based on your activities and sleep performance.</string>
+    <string name="bracelet_login_info_2">Login if you agree to </string>
+    <string name="bracelet_login_title">Hello, I am Mi Band.</string>
+    <string name="bracelet_not_connected_bat_unknown">Mi Band not paired, power unknown.</string>
+    <string name="bracelet_not_found_info">Please search again when you see one of the Mi Band lights flashes.</string>
+    <string name="bracelet_not_found_title">Please connect to power.</string>
+    <string name="bt_operation_failed_tips">Bluetooth is not working properly, please try later.</string>
+    <string name="cal">cal</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_upgrade">Check for updates</string>
+    <string name="checking_new_apk">Checking for new update ...</string>
+    <string name="clock_closed">Off</string>
+    <string name="cm">cm</string>
+    <string name="come_from_xiaomi_bracelet">From Mi Band</string>
+    <string name="confirm">Confirm</string>
+    <string name="congrats">Congrats!</string>
+    <string name="connect_bracelet_now">Connecting ...</string>
+    <string name="content_too_short">Content is missing.</string>
+    <string name="continue_reach_goal">Hit Goals</string>
+    <string name="continue_reach_goal_new_record">Created new record</string>
+    <string name="continue_tips_format">Your best record is to hit your goal for %1$s days.</string>
+    <string name="daily_sporty">Steps per day</string>
+    <string name="date_from_to">%1$s to %2$s</string>
+    <string name="date_from_to_short">%1$s-%2$s</string>
+    <string name="date_last_month">Last month</string>
+    <string name="date_last_week">Last week</string>
+    <string name="date_month">MMMM</string>
+    <string name="date_month_day">MMM d</string>
+    <string name="date_month_day_short">%1$d/%2$d</string>
+    <string name="date_month_day_week">%1$s %2$s</string>
+    <string name="date_month_day_week_short">%1$d.%2$d %3$s</string>
+    <string name="date_this_month">This month</string>
+    <string name="date_this_week">This week</string>
+    <string name="date_today">Today</string>
+    <string name="date_year_month">MMM, yyyy</string>
+    <string name="date_year_month_day">MMM d, yyyy</string>
+    <string name="date_yesterday">Yesterday</string>
+    <string name="day">days</string>
+    <string name="day_active_detail">Daily details</string>
+    <string name="description_list_icon">Item Icon</string>
+    <string name="device_list">Nearby Mi Bands</string>
+    <string name="device_not_found_not_knocked">Please search again after tap Mi Band once it flashes.</string>
+    <string name="device_not_response">"Why didn't my Mi Band flash?"</string>
+    <string name="disable_debug_log">Debug mode closed！</string>
+    <string name="discard">Discard</string>
+    <string name="discard_alarm_change">Discard changes？</string>
+    <string name="distance">Distance</string>
+    <string name="donot_bind">Pair later</string>
+    <string name="download_failed">Failed to download APK.</string>
+    <string name="downloading_apk">Mi Band</string>
+    <string name="dynamic_detail_modify_sleep_end_time">Correct awake time</string>
+    <string name="dynamic_detail_modify_sleep_start_time">Correct sleep starting time</string>
+    <string name="dynamic_detail_sleep_title">%s</string>
+    <string name="dynamic_detail_sleep_title_yesterday">Last night sleep</string>
+    <string name="dynamic_detail_step_share_title">%s activity</string>
+    <string name="dynamic_detail_step_title">%s</string>
+    <string name="dynamic_detail_step_title_today">Today</string>
+    <string name="dynamic_pull_connect_failed">Failed to connect, please pull to retry.</string>
+    <string name="dynamic_pull_connect_failed_hint">Make sure your Mi Band has enough power.</string>
+    <string name="dynamic_pull_connecting_bracelet">Connecting Mi Band ...</string>
+    <string name="dynamic_pull_last_sync_time">Last synced %s</string>
+    <string name="dynamic_pull_not_sync_today">Not synced today.</string>
+    <string name="dynamic_pull_pull_to_sync">Pull to sync details</string>
+    <string name="dynamic_pull_release_to_sync">Release to sync</string>
+    <string name="dynamic_pull_sync_after_connected">Automatically sync once connected.</string>
+    <string name="dynamic_pull_sync_error">Failed to sync, pull to refresh.</string>
+    <string name="dynamic_pull_syncing">Syncing ...</string>
+    <string name="dynamic_pull_syncing_progress">Synced %s%%</string>
+    <string name="dynamic_pull_update_report">Updated %s records</string>
+    <string name="dynamic_sleep_active">Awake time</string>
+    <string name="dynamic_sleep_active_end">Ready to get up</string>
+    <string name="dynamic_sleep_active_start">Ready to sleep</string>
+    <string name="dynamic_sleep_deep">Deep Sleep</string>
+    <string name="dynamic_sleep_deep_title">Deep Sleep %s</string>
+    <string name="dynamic_sleep_shallow">Light Sleep</string>
+    <string name="dynamic_sleep_tip">Total</string>
+    <string name="dynamic_step_tip">Current Steps</string>
+    <string name="dynamic_tip_sleep_unsynced">Not updated</string>
+    <string name="dynamic_tip_step_sync_time_hour">%d hr ago</string>
+    <string name="dynamic_tip_step_sync_time_min">%d min ago</string>
+    <string name="dynamic_tip_step_unsynced">Not updated</string>
+    <string name="dynamic_tip_sync_progress">Syncing data %d%%</string>
+    <string name="dynamic_tip_sync_time">%s synced</string>
+    <string name="dynamic_tip_unweared">Not activated</string>
+    <string name="dynamic_title_sleep">Last night</string>
+    <string name="dynamic_title_step">Today</string>
+    <string name="enable_debug_log">Debug mode opened！</string>
+    <string name="error_code">Error</string>
+    <string name="everyday">Everyday</string>
+    <string name="exit_app">Exit</string>
+    <string name="exit_app_continue">Continue</string>
+    <string name="exit_app_tips">"Are you sure to logout? 
+Connection will be lost after logout."</string>
+    <string name="exit_login">Logout</string>
+    <string name="exit_login_1">Are you sure to logout?</string>
+    <string name="failed_enable_bt">Please turn on Bluetooth.</string>
+    <string name="feedback">Feedback</string>
+    <string name="female">Female</string>
+    <string name="find_bracelet">Search for Mi Band</string>
+    <string name="find_bracelet_warning">Power will lost quickly in finding Mi Band.</string>
+    <string name="finding_bracelet">Searching for Mi Band ...</string>
+    <string name="firmware_upgrade">Firmware update</string>
+    <string name="firmware_version">Firmware Version</string>
+    <string name="first_use_days_today_format">Less than one day from first use.</string>
+    <string name="first_use_remain_days_format">%s days from first use</string>
+    <string name="found_bracelet_info">"When Mi Band's lights start flashing, tap a few times to pair."</string>
+    <string name="friends_invite2">Invite</string>
+    <string name="friends_search">Search</string>
+    <string name="friends_search_tips">Mi Account/Username/Phone</string>
+    <string name="fw_failed_help_tips0">Firmware is the software system operates Mi Band device.</string>
+    <string name="fw_failed_help_tips1">Update firmware can improve Mi Band performance. It also will support device to run new features.</string>
+    <string name="fw_failed_help_tips2">Please always make sure device power stays above 5%, and Mi Band is properly connected with phone during update process.</string>
+    <string name="fw_failed_help_title">Firmware FAQ</string>
+    <string name="fw_failed_help_title0">What is firmware?</string>
+    <string name="fw_failed_help_title1">Why do I need to update firmware?</string>
+    <string name="fw_failed_help_title2">What to do when I failed to update?</string>
+    <string name="fw_low_battery_tips">"We are unable to update Mi Band when its power level is below 5%. Please charge.
+Mi Band will start updating automatically once its been charged."</string>
+    <string name="fw_low_battery_title">Please connect to power while updating.</string>
+    <string name="fw_low_battery_view_help">Help</string>
+    <string name="fw_upgrade">Firmware update</string>
+    <string name="fw_upgrade_failed">Firmware failed to update.</string>
+    <string name="fw_upgrade_failed_tips">Sorry, firmware failed to update. This will disable a part of features.</string>
+    <string name="fw_upgrade_now">Updating firmware ...</string>
+    <string name="fw_upgrade_progress">Completed %s%%</string>
+    <string name="fw_upgrade_succ">Firmware update successfully, waiting to restart...</string>
+    <string name="fw_upgrade_tips">Make sure Mi Band stays close to your phone during process.</string>
+    <string name="gen_qr_code">Generate QR code</string>
+    <string name="get_help">Request help</string>
+    <string name="get_image_file_fail">Failed to obtain image</string>
+    <string name="goals_push_five">Achieve 50%</string>
+    <string name="goals_push_nine">Achieve 90%</string>
+    <string name="goals_push_none">No push notification</string>
+    <string name="goals_push_ten">Achieve 100%</string>
+    <string name="gram">g</string>
+    <string name="green">Green</string>
+    <string name="half_marathon_format_0">"It's about %1$s half-marathons."</string>
+    <string name="half_marathon_format_1">More than %1$s half-marathons.</string>
+    <string name="help">Help</string>
+    <string name="help_info_0">Please make sure your phone supports Bluetooth 4.0 or above version. You can find this out from your phone specs.</string>
+    <string name="help_info_1">Only Android 4.4 and above version support Mi Band.</string>
+    <string name="help_info_2">"Please make sure to charge your MI Band correctly. You will see green lights flash when it's charging."</string>
+    <string name="help_info_3">If your Mi Band is paired with an existing phone or if your Mi Band is not close to your phone, please turn off</string>
+    <string name="help_info_4">"You may reach out to our customer service for future assistance.
+
+Customer service hotline: 400-100-5678
+We are available from 8 am to 6 pm, Monday to Sunday."</string>
+    <string name="help_title_0">Does your phone support Bluetooth 4.0?</string>
+    <string name="help_title_1">Does your phone operating system meet requirement?</string>
+    <string name="help_title_2">Has your Mi Band been fully charged?</string>
+    <string name="help_title_3">Mi Band has paired with another phone?</string>
+    <string name="hot_des">Energy</string>
+    <string name="hour_1" />
+    <string name="in">In </string>
+    <string name="incoming_call_notify">Incoming Call</string>
+    <string name="incoming_call_notify_tips">Notice me if I miss incoming call in %s sec.</string>
+    <string name="input_precise_person_info">Please enter your personal information. More details will help to get precise results.</string>
+    <string name="instruction_tip_1">"Take a look 
+find out your work out
+progress"</string>
+    <string name="instruction_tip_2_1">"Steps count
+ is less than 
+1/3 of your goal"</string>
+    <string name="instruction_tip_2_2">"Over
+1/3 of your goal"</string>
+    <string name="instruction_tip_2_3">"Over
+2/3 of your goal"</string>
+    <string name="instruction_tip_2_4">"Great job!
+You have hit your goal today."</string>
+    <string name="instruction_tip_2_5">"Over
+Goal set"</string>
+    <string name="instruction_tip_3">"Power is 
+very low. 
+Please charge Mi Band."</string>
+    <string name="instruction_title">More to do with Mi Band</string>
+    <string name="kg">kg</string>
+    <string name="kilogram">kg</string>
+    <string name="km">km</string>
+    <string name="left_hand">Left</string>
+    <string name="light_color">Indication Light Color</string>
+    <string name="light_color_title">Indicates light color for the progress of workout</string>
+    <string name="local_app_failed">Failed to obtain current version data.</string>
+    <string name="login">Login</string>
+    <string name="login_failed">Failed to login, please try again.</string>
+    <string name="login_failed_check_sys_time">Failed to login, please check your time setting and use the time provided by network.</string>
+    <string name="logining">Logging in ...</string>
+    <string name="look_device_list">Search for nearby Mi Band</string>
+    <string name="main_ui_share_tips">"Worked out for %1$s%2$s today.
+%3$s"</string>
+    <string name="main_ui_sleep_share_tips">"Light sleep %1$s%2$s
+Slept in %3$s, woke up at %4$s."</string>
+    <string name="male">Male</string>
+    <string name="marathon_format_0">"It's about %1$s marathons."</string>
+    <string name="marathon_format_1">More than %1$s marathons.</string>
+    <string name="mili_exit_login_info">"You are about to log out from current Mi Account.
+Would you like to continue?"</string>
+    <string name="mili_exit_login_info_continue">"Failed to sync, please check network connection. 
+If you choose to exit, you will loss data that hasn't been synced. Are you sure to exit?"</string>
+    <string name="mili_exit_login_info_continue_tip">Are you sure to continue?</string>
+    <string name="mili_exit_login_info_exiting">Logging out ...</string>
+    <string name="mili_exit_login_info_unbind">Exit will disconnect Mi Band with your phone,</string>
+    <string name="mili_exit_login_info_unlock">unlock screen feature will be no longer valid.</string>
+    <string name="mili_name">Mi Band name</string>
+    <string name="mili_name_too_long">Name is too long, please change.</string>
+    <string name="mili_rename_fail">"Failed to update Mi Band's name."</string>
+    <string name="mili_reset_info">"We are about to clean up data from this Mi Band and reset it to factory settings. 
+Are you sure to continue?"</string>
+    <string name="mili_unbind_question">Your phone will no longer have access to data from Mi Band once they are unpaired.</string>
+    <string name="mili_unbind_question_content">Once you unpair Mi Band with your phone, you may pair another Mi Band with it.</string>
+    <string name="mili_unbind_question_content_1">In addition, you are no longer able to unlock your screen with this Mi Band once you unpair them.</string>
+    <string name="minute" />
+    <string name="modify_gender">Gender</string>
+    <string name="modify_height">Height</string>
+    <string name="modify_nickname">Edit name</string>
+    <string name="modify_signiture">Edit status</string>
+    <string name="modify_signiture_hint">Status</string>
+    <string name="modify_weight">Weight</string>
+    <string name="mon_fri">Mon. to Fri.</string>
+    <string name="mon_sat">Mon. to Sat.</string>
+    <string name="month">Month</string>
+    <string name="move_and_capture">Move and Capture</string>
+    <string name="multi_devices_info">Sorry, there are multiple Mi Bands nearby. You can try to move your Mi Band and phone at least 10 meters away from other Mi Bands, then search again.</string>
+    <string name="multi_devices_title">Unable to pair.</string>
+    <string name="network_error">We are unable to connect you to the network, please check your network connection.</string>
+    <string name="new_friend_accept">Agree</string>
+    <string name="new_friend_cancel">Decline</string>
+    <string name="new_record_born">Great job! You just made a new record.</string>
+    <string name="new_record_format_str">"%1$s burned %2$s cal.
+Every new record gets you one step closer to a better self.
+Don't stop yourself, move forward."</string>
+    <string name="new_version_available">Found a new version</string>
+    <string name="next_step">Next</string>
+    <string name="no_network_connection">Network disconnected</string>
+    <string name="no_wear_bracelet">You did not wear Mi Band last night.</string>
+    <string name="no_wear_user_modified">Manually add details about my sleep</string>
+    <string name="noti_bracelet_low_battery_content">Less than 5% of power left, please charge.</string>
+    <string name="noti_bracelet_low_battery_content_none">Connect to power</string>
+    <string name="noti_bracelet_low_battery_title">Low power</string>
+    <string name="noti_bracelet_low_battery_title_none">Mi Band has turned off.</string>
+    <string name="notify_status_motor">手环震动</string>
+    <string name="notify_status_motor_alarm">原因：普通闹钟</string>
+    <string name="notify_status_motor_auth">原因：敲击配对</string>
+    <string name="notify_status_motor_auth_success">原因：认证成功</string>
+    <string name="notify_status_motor_call">原因：来电提醒</string>
+    <string name="notify_status_motor_disconnect">原因：断开连接</string>
+    <string name="notify_status_motor_goal">原因：目标达成</string>
+    <string name="notify_status_motor_notify">原因：查找手环</string>
+    <string name="notify_status_motor_shut_down">原因：手环关机</string>
+    <string name="notify_status_motor_smart_alarm">原因：智能闹钟</string>
+    <string name="notify_status_motor_test">原因：马达测试</string>
+    <string name="odo">Total distance</string>
+    <string name="one_min">1 min. ago</string>
+    <string name="one_week">During this week, </string>
+    <string name="orange">Orange</string>
+    <string name="person_info_finished_info">Mi Band has been set up successfully.</string>
+    <string name="person_info_goal_info">"According to studies, we suggest you to do at least 40 minutes workout every day. 
+It is about 8000 steps of walk."</string>
+    <string name="person_info_goal_info_young">"According to studies, we suggest you to do at least 60 minutes workout every day. 
+It is about 12000 steps of walk."</string>
+    <string name="personal_info">Profile</string>
+    <string name="please_input_age">Age</string>
+    <string name="please_input_gender">Select a gender</string>
+    <string name="please_knock_bracelet">Please tap your Mi Band to pair</string>
+    <string name="please_set_sport_goal">Set your goal</string>
+    <string name="pm">PM</string>
+    <string name="point">points</string>
+    <string name="points_exchange">Credit rewards</string>
+    <string name="prev_step">Previous</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">加载更多</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载…</string>
+    <string name="pull_to_refresh_release_label">松开加载</string>
+    <string name="ran">ran </string>
+    <string name="red">Red</string>
+    <string name="register">Sign up</string>
+    <string name="remain_days_format">%s days from last charge</string>
+    <string name="remain_days_today_format">Less than one day from last charge</string>
+    <string name="rename_mili">Name</string>
+    <string name="reset_mili">Reset Mi Band</string>
+    <string name="retry">Retry</string>
+    <string name="right_hand">Right</string>
+    <string name="runed">Ran</string>
+    <string name="s_mili">Mi Band</string>
+    <string name="search_bracelet">Searching</string>
+    <string name="search_bracelet_again">Search again</string>
+    <string name="search_bracelet_ok">Found a Mi Band!</string>
+    <string name="search_devices_info">Please put on Mi Band and stay close to your phone.</string>
+    <string name="search_devices_title">Search Mi Band</string>
+    <string name="second">Second</string>
+    <string name="select_from_camera">Camera</string>
+    <string name="select_from_local">Choose from Gallery</string>
+    <string name="select_image">Edit profile picture</string>
+    <string name="set_goal_step">8000 steps/day</string>
+    <string name="set_mili_name">Name Mi Band</string>
+    <string name="set_mili_name_fail">Failed to name your Mi Band.</string>
+    <string name="set_mili_name_ok">Name Mi Band OK.</string>
+    <string name="set_person_goal">Set Goal</string>
+    <string name="set_sport_goal">Set Goal</string>
+    <string name="setting_about_app">App version </string>
+    <string name="setting_about_fw">Firmware version </string>
+    <string name="setting_feedback_address">How can we reach you?</string>
+    <string name="setting_feedback_hint">Thanks for your time. Your feedback is important to us.</string>
+    <string name="setting_feedback_send">Send</string>
+    <string name="share">Share</string>
+    <string name="share_blog_cancel">Cancel</string>
+    <string name="share_blog_message_hint">Say something ...</string>
+    <string name="share_blog_other">Share to</string>
+    <string name="share_blog_pengyouquan">Moment</string>
+    <string name="share_blog_qq">QQ</string>
+    <string name="share_blog_qq_zone">QQ zone</string>
+    <string name="share_blog_share">Post</string>
+    <string name="share_blog_title">Post updates</string>
+    <string name="share_blog_weibo">Weibo</string>
+    <string name="share_blog_weixin">Wechat</string>
+    <string name="share_continue_goal_format">"Walked total of %1$s, %2$s steps per day.
+%3$s
+%4$s"</string>
+    <string name="share_continue_goal_format_run">"Walked total of %1$s, ran %2$s.
+%3$s.
+%4$s"</string>
+    <string name="share_goal_tips_fail">Not far from hitting your goal.</string>
+    <string name="share_goal_tips_succ">"Have a great plan?
+Take your first step."</string>
+    <string name="share_miliao_too_old">MiTalk version is too old.</string>
+    <string name="share_play_ground_format">"It's about %1$s laps of track."</string>
+    <string name="share_sleep_description">"In deep sleep stage for %1$shr and %2$smin, 
+in light sleep stage for %3$shr and %4$smin.
+In sleep: %5$s. Awake: %6$s"</string>
+    <string name="share_sleep_description_average">"Spent an average of %1$shr %2$smin in deep sleep stage and %3$shr %4$smin in light sleep stage.
+You slept in at around %5$s, the average awake time is %6$s."</string>
+    <string name="share_sleep_title">Last Night</string>
+    <string name="share_sleep_title_average">Ave. Sleep</string>
+    <string name="share_sleep_title_daily">Sleep</string>
+    <string name="share_step_description">"Walked %1$s burned %2$s cal.
+"</string>
+    <string name="share_step_description_monthly">"%1$s%2$s
+ burned %3$s cal, and you saved %4$s gallons of gas.
+(thanks for protecting our earth)
+The highest record was %5$s, walked %6$s steps."</string>
+    <string name="share_step_description_monthly_run">"%1$s, run %2$s
+ %3$s, and you saved %4$s gallons of gas.
+(thanks for protecting our earth)
+The highest record was %5$s, walked %6$s steps."</string>
+    <string name="share_step_description_run">"Walked %1$s, ran %2$s.
+Burned %3$s cal.
+"</string>
+    <string name="share_step_description_weekly">"Total %1$s%2$s
+Burned %3$s cal.
+Highest daily record happened on %4$s, walked %5$s steps."</string>
+    <string name="share_step_description_weekly_run">"Total %1$s, ran %2$s.
+%3$s
+Highest daily record happened on %4$s, walked %5$s steps."</string>
+    <string name="share_step_goal_failed_title">Total</string>
+    <string name="share_step_goal_failed_title_today">Today</string>
+    <string name="share_step_goal_succ_title">Hit Goal</string>
+    <string name="share_step_goal_succ_title_today">"Hit today's goal!"</string>
+    <string name="share_step_walk">I walked</string>
+    <string name="share_to_content">Share life with Mi Band</string>
+    <string name="share_to_content_sleep">My sleep info</string>
+    <string name="share_to_content_step">My sport info</string>
+    <string name="share_to_miliao_path">Share to</string>
+    <string name="share_to_miliao_target_feeds">Circle</string>
+    <string name="share_to_miliao_target_friends">Friends</string>
+    <string name="share_to_miliao_target_union">Work out buddies</string>
+    <string name="share_to_title">Mi Band</string>
+    <string name="share_to_topic">\#Mi Band#</string>
+    <string name="share_uninstall_client">"The application hasn't been installed, unable to share."</string>
+    <string name="smart_alarm_clock">Alarm</string>
+    <string name="smart_alarm_notify">Intelligent Alarm</string>
+    <string name="smart_wake_up">Smart Alarm</string>
+    <string name="smart_wake_up_info">"Please wake me up 30 minutes before set time. 
+I would like to get up when my body is awake."</string>
+    <string name="start">Start</string>
+    <string name="start_download">Downloading in the background ...</string>
+    <string name="start_use">Ignite</string>
+    <string name="start_weixin">Open Wechat</string>
+    <string name="start_weixin_not_installed">Start Wechat (not installed)</string>
+    <string name="stat_sleep">Sleep Time</string>
+    <string name="stat_sleep_achievement">Progress</string>
+    <string name="stat_sleep_average">Ave. Sleep</string>
+    <string name="stat_sleep_deep">Deep Sleep</string>
+    <string name="stat_sleep_deep_average">Ave. Deep Sleep</string>
+    <string name="stat_sleep_rise_time">Woke Up</string>
+    <string name="stat_sleep_rise_time_average">Time Woke Up</string>
+    <string name="stat_sleep_shallow">Light Sleep</string>
+    <string name="stat_sleep_shallow_average">Ave. Light Sleep</string>
+    <string name="stat_sleep_time">Slept In</string>
+    <string name="stat_sleep_time_average">Time Sleep In</string>
+    <string name="stat_sleep_wake">Awake Time</string>
+    <string name="stat_sleep_wake_average">Awake/Day</string>
+    <string name="stat_step_active_average">Ave. Active</string>
+    <string name="stat_step_active_total">Active Time</string>
+    <string name="stat_step_average">Ave. Steps</string>
+    <string name="stat_step_calorie_average">Ave. Burn</string>
+    <string name="stat_step_calorie_daily">Total Burn</string>
+    <string name="stat_step_calorie_total">Toal Burn</string>
+    <string name="stat_step_daily">Total Steps</string>
+    <string name="stat_step_distance_average">Ave. Distance</string>
+    <string name="stat_step_distance_daily">Total Distance</string>
+    <string name="stat_step_distance_total">Total Distance</string>
+    <string name="stat_step_run">Run</string>
+    <string name="stat_step_run_average">Ave. Run</string>
+    <string name="stat_step_run_total">Run</string>
+    <string name="stat_step_total">Total Steps</string>
+    <string name="stat_step_walk">Walk</string>
+    <string name="stat_step_walk_average">Ave. Walk</string>
+    <string name="stat_step_walk_total">Walk</string>
+    <string name="stat_steps">Steps</string>
+    <string name="stat_steps_achievement">Progress</string>
+    <string name="stat_steps_active_time">Duration</string>
+    <string name="stat_steps_consecutive_active">Longest</string>
+    <string name="statistic">States</string>
+    <string name="statistic_day_average">Ave. Per Day</string>
+    <string name="statistic_detail">Details</string>
+    <string name="statistic_total">Total</string>
+    <string name="step">steps</string>
+    <string name="step1">Step 1) </string>
+    <string name="step2">Step 2) </string>
+    <string name="step_per_day"> steps/day</string>
+    <string name="stop">End</string>
+    <string name="sync_to_server">Syncing data to the cloud ...</string>
+    <string name="system_low_info">Please update to Android 4.4 and an above version to support Mi Band.</string>
+    <string name="system_low_title">Please update your system.</string>
+    <string name="system_not_support_info">"In order to use Mi Band, you need to update your phone system.
+Only Android 4.4 or above versions support Mi Band."</string>
+    <string name="system_not_support_title">Not supportive.</string>
+    <string name="time_format_hour_min">%1$sh %2$sm</string>
+    <string name="time_format_min">%s min</string>
+    <string name="today">Today</string>
+    <string name="unbind">Unpair</string>
+    <string name="unbind_mili">Unpair</string>
+    <string name="unbind_short">Unpair</string>
+    <string name="unbinding">Unpairing ...</string>
+    <string name="unit_calorie">cal</string>
+    <string name="unit_hour">h</string>
+    <string name="unit_kilometer">km</string>
+    <string name="unit_meter">m</string>
+    <string name="unit_min">min</string>
+    <string name="unit_min_short">m</string>
+    <string name="unit_step">steps</string>
+    <string name="unknown_location">Not located</string>
+    <string name="unknown_mili">My</string>
+    <string name="unlock_screen">Screen Unlocking</string>
+    <string name="unlock_screen_help_info0">Please place your Mi Band very close to your phone.</string>
+    <string name="unlock_screen_help_info1">If your phone is still locked, you can try to restart Bluetooth to see if this problem can be fixed.</string>
+    <string name="unlock_screen_help_info2">If you are unable to restart Bluetooth, please go to System Settings->Security to forget current Mi Band. Then, please go to Mi Band app to reset Screen Unlock.</string>
+    <string name="unlock_screen_help_tips">Two steps to set up, allow Mi Band to unlock your screen.</string>
+    <string name="unlock_screen_help_title0">Was Mi Band close enough to your phone?</string>
+    <string name="unlock_screen_help_title1">Restart Bluetooth</string>
+    <string name="unlock_screen_help_title2">Restart Lockscreen Unlock</string>
+    <string name="unlock_screen_invalid">What can I do if I am unable to unlock?</string>
+    <string name="unlock_screen_invalid_helper">Unable to unlock screen with your Mi Band?</string>
+    <string name="unlock_screen_miui_version_low">Please update current MIUI version.</string>
+    <string name="unlock_screen_modify_unlock">"If you want to make a change,
+visit Settings->Security."</string>
+    <string name="unlock_screen_not_connect">Please pair with a Mi Band before set Screen Unlock.</string>
+    <string name="unlock_screen_set_password">Step 1) Set your Password.</string>
+    <string name="unlock_screen_set_password_tips_has_set">Lock screen password has been successfully set up.</string>
+    <string name="unlock_screen_set_password_tips_set">Set Lock screen password</string>
+    <string name="unlock_screen_set_success">You have set to unlock your screen with this Mi Band.</string>
+    <string name="unlock_screen_set_use_bracelet">Step 2) Set to unlock your screen with Mi Band.</string>
+    <string name="unlock_screen_set_use_bracelet_tips">Confirm password.</string>
+    <string name="until_hit_goals">Continue hit goals until %s</string>
+    <string name="upgrade">Update</string>
+    <string name="upgrade_tip">Update notification</string>
+    <string name="user_agreement">User Statement and Privacy Policy</string>
+    <string name="visit_micom">Visit official site</string>
+    <string name="wait">One moment ...</string>
+    <string name="walked">Walked </string>
+    <string name="wear_hand">Wrist</string>
+    <string name="weared_days">Total days</string>
+    <string name="weather_aqi">Air Quality %s</string>
+    <string name="weather_description_cloudy">Cloudy,</string>
+    <string name="weather_description_fine">Sunny,</string>
+    <string name="weather_description_fog">Fog,</string>
+    <string name="weather_description_haze">Haze,</string>
+    <string name="weather_description_overcast">Overcast,</string>
+    <string name="weather_description_rain">Rainy,</string>
+    <string name="weather_description_rain_snow">Snow,</string>
+    <string name="weather_description_sand">Dusty,</string>
+    <string name="weather_description_snow">Snow,</string>
+    <string name="week" />
+    <string name="welcom_back">Welcome back</string>
+    <string name="welcome">Hello</string>
+    <string name="year">Year</string>
+    <string name="your_gender">Gender</string>
+    <string name="your_height">Height</string>
+    <string name="your_weight">Weight</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/fragment_tabs" />
+        <FrameLayout android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@id/mode_simple_detail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="9.0sp" android:textColor="@color/txt_with_drawable" android:gravity="center" android:id="@id/mode_simple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="27.0dip" android:drawableTop="@drawable/btn_statistic_simple_selector" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/txt_with_drawable" android:gravity="center" android:id="@id/mode_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statistic_detail" android:drawableTop="@drawable/btn_statistic_detail_selector" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/mode_average_total" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="9.0sp" android:textColor="@color/txt_with_drawable" android:gravity="center" android:id="@id/mode_average" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="27.0dip" android:text="@string/statistic_day_average" android:drawableTop="@drawable/btn_statistic_average_selector" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/txt_with_drawable" android:gravity="center" android:id="@id/mode_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statistic_total" android:drawableTop="@drawable/btn_statistic_total_selector" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/home_back" android:paddingLeft="15.0dip" android:paddingTop="15.0dip" android:paddingRight="3.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statistic" android:drawableLeft="@drawable/btn_prev_selector" android:drawablePadding="10.0dip" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+    <ImageButton android:layout_gravity="right" android:id="@id/share" android:background="@null" android:paddingLeft="3.0dip" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_share" />
+</FrameLayout>

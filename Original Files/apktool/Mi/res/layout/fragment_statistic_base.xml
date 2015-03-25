@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/bg_color_blue" android:layout_width="fill_parent" android:layout_height="270.0dip">
+        <cn.com.smartdevices.bracelet.chart.deprecated.StatisticChartViewOld android:layout_gravity="bottom" android:id="@id/day_active_statistic_chart" android:layout_width="fill_parent" android:layout_height="180.0dip" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <GridLayout android:paddingLeft="@dimen/statistic_data_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="3">
+                <LinearLayout android:orientation="vertical" android:id="@id/steps" android:layout_width="@dimen/statistic_data_item_width" android:layout_marginBottom="@dimen/statistic_data_item_margin_bottom">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_steps" />
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/steps_distance" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:id="@id/steps_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_kilometer" />
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_distance_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/steps_calorie" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:id="@id/steps_calorie_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unit_calorie" />
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_calorie_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/steps_active_time" android:layout_width="@dimen/statistic_data_item_width" android:layout_marginBottom="@dimen/statistic_data_item_margin_bottom">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_steps_active_time" />
+                    <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_active_time_value_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="h" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_active_time_value_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/steps_consecutive_active" android:layout_width="@dimen/statistic_data_item_width" android:layout_marginBottom="@dimen/statistic_data_item_margin_bottom">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_steps_consecutive_active" />
+                    <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_consecutive_active_value_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="h" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_consecutive_active_value_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/steps_achieve" android:layout_marginBottom="@dimen/statistic_data_item_margin_bottom">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_steps_achievement" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_step" android:id="@id/steps_achieve_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                        <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_step" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="%" />
+                    </LinearLayout>
+                </LinearLayout>
+            </GridLayout>
+            <View android:background="#ffd9d9d9" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="23.5dip" android:layout_marginRight="23.5dip" />
+            <GridLayout android:paddingLeft="@dimen/statistic_data_padding_left" android:paddingTop="@dimen/statistic_data_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="3">
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep" android:layout_width="@dimen/statistic_data_item_width" android:layout_marginBottom="@dimen/statistic_data_item_margin_bottom">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_value_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="h" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_value_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep_deep" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep_deep" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_deep_value_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="h" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_deep_value_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep_shallow" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep_shallow" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_shallow_value_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="h" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_shallow_value_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                            <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="min" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep_time" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep_time" />
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep_rise_time" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep_rise_time" />
+                    <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_rise_time_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/sleep_achieve" android:layout_width="@dimen/statistic_data_item_width">
+                    <TextView android:textSize="@dimen/statistic_data_item_title_size" android:textColor="@color/statistic_data_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stat_sleep_achievement" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <cn.com.smartdevices.bracelet.chart.typeface.TypefaceTextView android:textSize="@dimen/statistic_data_item_value_size" android:textColor="@color/statistic_data_item_value_sleep" android:id="@id/sleep_achieve_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NaN" android:fontFamily="miui-normal" />
+                        <TextView android:textSize="@dimen/statistic_data_item_value_unit_size" android:textColor="@color/statistic_data_item_value_sleep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="%" />
+                    </LinearLayout>
+                </LinearLayout>
+            </GridLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

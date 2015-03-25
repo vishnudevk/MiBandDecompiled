@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/bg_color_blue" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/info_title_size" android:textColor="@color/title_color" android:gravity="center" android:id="@id/welcom_page_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/info_title_margin_top" android:text="@string/congrats" />
+    <TextView android:id="@id/person_info_finish_info" android:paddingTop="11.299988dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/person_info_finished_info" android:layout_below="@id/welcom_page_title" style="@style/InfoContent" />
+    <WebView android:id="@id/person_info_finish_webview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="315.0dip" android:layout_below="@id/person_info_finish_info" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/bracelet_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/set_finish_default" android:layout_below="@id/person_info_finish_info" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/info_content_size" android:textColor="@color/content_color" android:gravity="center" android:id="@id/welcom_page_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/info_content_margin_bottom" android:layout_below="@id/bracelet_icon" />
+    <Button android:textSize="@dimen/click_button_text_size" android:textColor="@color/normal" android:id="@id/person_info_finished_page_start" android:background="@drawable/click_btn_bg" android:layout_width="@dimen/click_button_w" android:layout_height="@dimen/click_button_h" android:text="@string/start_use" android:layout_below="@id/welcom_page_info" android:layout_centerHorizontal="true" />
+</RelativeLayout>
