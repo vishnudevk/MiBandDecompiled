@@ -8,6 +8,10 @@ android {
         jniLibs.srcDir 'src/main/libs'
     }
 
+    dexOptions {
+        preDexLibraries = false
+    }
+
     defaultConfig {
         applicationId "com.xiaomi.hm.health"
         minSdkVersion 19
@@ -24,7 +28,9 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.+'
+    compile files('src/main/libs/classes-dex2jar1.jar')
+    compile files('src/main/libs/achartengine-1.1.0.jar')
 }
 
