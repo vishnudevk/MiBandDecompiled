@@ -4,6 +4,10 @@ android {
     compileSdkVersion 22
     buildToolsVersion "21.1.2"
 
+    sourceSets.main {
+        jniLibs.srcDir 'src/main/libs'
+    }
+
     defaultConfig {
         applicationId "com.xiaomi.hm.health"
         minSdkVersion 19
