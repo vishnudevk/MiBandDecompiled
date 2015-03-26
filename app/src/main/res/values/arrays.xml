@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fortune">
+        <item>"It's easy to hit goal for one day but hard for every day."</item>
+        <item>"It's not an easy thing to achieve a goal every single day."</item>
+        <item>You are making new record everyday!</item>
+        <item>Enjoy building a better you!</item>
+        <item>You are never a loser until you quit trying.</item>
+        <item>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</item>
+        <item>Achieve one goal a day.</item>
+        <item>Keep challenge yourself to be better today.</item>
+        <item>Just do it.</item>
+        <item>Keep practicing, winning will take care of itself.</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>Wednesday</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="select_days_simple">
+        <item>Once</item>
+        <item>Everyday</item>
+        <item>From Mon. to Fri.</item>
+        <item>Customize</item>
+    </string-array>
+    <string-array name="weather_aqi_descriptions">
+        <item>Fine</item>
+        <item>Good</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Unhealthy</item>
+        <item>Very Unhealthy</item>
+    </string-array>
+    <string-array name="weather_cloudy">
+        <item>多云</item>
+    </string-array>
+    <string-array name="weather_fine">
+        <item>晴</item>
+    </string-array>
+    <string-array name="weather_fog">
+        <item>雾</item>
+    </string-array>
+    <string-array name="weather_haze">
+        <item>霾</item>
+    </string-array>
+    <string-array name="weather_overcast">
+        <item>阴</item>
+    </string-array>
+    <string-array name="weather_rain_snows">
+        <item>雨夹雪</item>
+    </string-array>
+    <string-array name="weather_rains">
+        <item>阵雨</item>
+        <item>雷阵雨</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>冻雨</item>
+        <item>雷阵雨伴有冰雹</item>
+    </string-array>
+    <string-array name="weather_sands">
+        <item>浮尘</item>
+        <item>扬沙</item>
+        <item>沙尘暴</item>
+        <item>强沙尘暴</item>
+    </string-array>
+    <string-array name="weather_snows">
+        <item>阵雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>Mon.</item>
+        <item>Tues.</item>
+        <item>Wed.</item>
+        <item>Thurs.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+        <item>Sun.</item>
+    </string-array>
+    <string-array name="weeks_short">
+        <item>Mon.</item>
+        <item>Tues.</item>
+        <item>Wed.</item>
+        <item>Thurs.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+        <item>Sun.</item>
+    </string-array>
+</resources>
