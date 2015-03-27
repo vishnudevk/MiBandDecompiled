@@ -25,15 +25,15 @@
     <item type="id" name="tip_bg">false</item>
     <item type="id" name="tip">false</item>
     <item type="id" name="gif_view">false</item>
-    <item type="id" name="bracelet_login_title">false</item>
+    <item type="id" name="bracelet_login_title_id">false</item>
     <item type="id" name="bracelet_login_webview">false</item>
     <item type="id" name="bracelet_login_title_info">false</item>
     <item type="id" name="bracelet_login_part_2">false</item>
-    <item type="id" name="bracelet_login_info">false</item>
+    <item type="id" name="bracelet_login_info_id">false</item>
     <item type="id" name="mi_login_btn">false</item>
     <item type="id" name="mi_register_btn">false</item>
-    <item type="id" name="cancel">false</item>
-    <item type="id" name="confirm">false</item>
+    <item type="id" name="cancel_id">false</item>
+    <item type="id" name="confirm_id">false</item>
     <item type="id" name="new_alarm_small_titile_0">false</item>
     <item type="id" name="new_alarm_smart_splict_0">false</item>
     <item type="id" name="new_alarm_smart_wakeup_area">false</item>
@@ -241,7 +241,7 @@
     <item type="id" name="setting_about_bracelet_firmware_value">false</item>
     <item type="id" name="setting_about_bracelet_bluetooth_value">false</item>
     <item type="id" name="setting_about_bracelet_bluetooth_address">false</item>
-    <item type="id" name="setting_feedback_id">false</item>
+    <item type="id" name="setting_feedback">false</item>
     <item type="id" name="split_line_1">false</item>
     <item type="id" name="setting_about_website">false</item>
     <item type="id" name="split_line_0">false</item>
@@ -249,7 +249,7 @@
     <item type="id" name="setting_about_user_agreement">false</item>
     <item type="id" name="feedback_email">false</item>
     <item type="id" name="feedback_content">false</item>
-    <item type="id" name="feedback">false</item>
+    <item type="id" name="feedback_id">false</item>
     <item type="id" name="current_firmware_version">false</item>
     <item type="id" name="new_firmware_version">false</item>
     <item type="id" name="firmware_change_log">false</item>
@@ -384,7 +384,7 @@
     <item type="id" name="searched_device_item_signal_tv">false</item>
     <item type="id" name="searched_device_item_signal_bar">false</item>
     <item type="id" name="fragment_setting_sliding_layout">false</item>
-    <item type="id" name="dragView">false</item>
+    <item type="id" name="dragView_id">false</item>
     <item type="id" name="mili_top_bar">false</item>
     <item type="id" name="device_find_bracelet">false</item>
     <item type="id" name="device_find_bracelet_tv">false</item>

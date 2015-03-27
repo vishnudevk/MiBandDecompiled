@@ -9,7 +9,7 @@
                 <TextView android:textSize="10.0sp" android:textColor="#99ffffff" android:id="@id/header_sync_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             </LinearLayout>
         </LinearLayout>
-        <ImageButton android:layout_gravity="center|right" android:id="@id/share" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/btn_share" />
+        <ImageButton android:layout_gravity="center|right" android:id="@id/share_id" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/btn_share" />
         <View android:layout_gravity="bottom" android:background="#1affffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
     </FrameLayout>
     <view android:scrollbars="none" android:fadingEdgeLength="25.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" android:requiresFadingEdge="vertical" class="cn.com.smartdevices.bracelet.ui.StatisticFragment$FadingEdgeScrollView">

@@ -84,7 +84,7 @@
     <public type="attr" name="paralaxOffset" id="0x7f010051" />
     <public type="attr" name="fadeColor" id="0x7f010052" />
     <public type="attr" name="flingVelocity" id="0x7f010053" />
-    <public type="attr" name="dragView_attr" id="0x7f010054" />
+    <public type="attr" name="dragView" id="0x7f010054" />
     <public type="attr" name="overlay" id="0x7f010055" />
     <public type="attr" name="clipPadding" id="0x7f010056" />
     <public type="attr" name="footerColor" id="0x7f010057" />
@@ -590,15 +590,15 @@
     <public type="id" name="tip_bg" id="0x7f0a0037" />
     <public type="id" name="tip" id="0x7f0a0038" />
     <public type="id" name="gif_view" id="0x7f0a0039" />
-    <public type="id" name="bracelet_login_title" id="0x7f0a003a" />
+    <public type="id" name="bracelet_login_title_id" id="0x7f0a003a" />
     <public type="id" name="bracelet_login_webview" id="0x7f0a003b" />
     <public type="id" name="bracelet_login_title_info" id="0x7f0a003c" />
     <public type="id" name="bracelet_login_part_2" id="0x7f0a003d" />
-    <public type="id" name="bracelet_login_info" id="0x7f0a003e" />
+    <public type="id" name="bracelet_login_info_id" id="0x7f0a003e" />
     <public type="id" name="mi_login_btn" id="0x7f0a003f" />
     <public type="id" name="mi_register_btn" id="0x7f0a0040" />
-    <public type="id" name="cancel" id="0x7f0a0041" />
-    <public type="id" name="confirm" id="0x7f0a0042" />
+    <public type="id" name="cancel_id" id="0x7f0a0041" />
+    <public type="id" name="confirm_id" id="0x7f0a0042" />
     <public type="id" name="new_alarm_small_titile_0" id="0x7f0a0043" />
     <public type="id" name="new_alarm_smart_splict_0" id="0x7f0a0044" />
     <public type="id" name="new_alarm_smart_wakeup_area" id="0x7f0a0045" />
@@ -949,7 +949,7 @@
     <public type="id" name="searched_device_item_signal_tv" id="0x7f0a019e" />
     <public type="id" name="searched_device_item_signal_bar" id="0x7f0a019f" />
     <public type="id" name="fragment_setting_sliding_layout" id="0x7f0a01a0" />
-    <public type="id" name="dragView" id="0x7f0a01a1" />
+    <public type="id" name="dragView_id" id="0x7f0a01a1" />
     <public type="id" name="mili_top_bar" id="0x7f0a01a2" />
     <public type="id" name="device_find_bracelet" id="0x7f0a01a3" />
     <public type="id" name="device_find_bracelet_tv" id="0x7f0a01a4" />

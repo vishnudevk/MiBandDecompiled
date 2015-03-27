@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <cn.com.smartdevices.bracelet.lua.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/fragment_setting_sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:panelHeight="250.0dip" sothree:shadowHeight="0.0dip" sothree:paralaxOffset="0.0dip" sothree:dragView="@id/dragView" xmlns:sothree="http://schemas.android.com/apk/res-auto">
+    <cn.com.smartdevices.bracelet.lua.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/fragment_setting_sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:panelHeight="250.0dip" sothree:shadowHeight="0.0dip" sothree:paralaxOffset="0.0dip" sothree:dragView="@id/dragView_id" xmlns:sothree="http://schemas.android.com/apk/res-auto">
         <include android:id="@id/mili_top_bar" layout="@layout/mili_top_bar_layout" />
         <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
