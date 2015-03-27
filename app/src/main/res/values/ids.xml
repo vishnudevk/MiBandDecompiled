@@ -385,7 +385,7 @@
     <item type="id" name="searched_device_item_signal_bar">false</item>
     <item type="id" name="fragment_setting_sliding_layout">false</item>
     <item type="id" name="dragView_id">false</item>
-    <item type="id" name="mili_top_bar">false</item>
+    <item type="id" name="mili_top_bar_id">false</item>
     <item type="id" name="device_find_bracelet">false</item>
     <item type="id" name="device_find_bracelet_tv">false</item>
     <item type="id" name="device_set_goal">false</item>

@@ -373,7 +373,7 @@
     <public type="layout" name="health_goal_activity" id="0x7f03004e" />
     <public type="layout" name="help_activity" id="0x7f03004f" />
     <public type="layout" name="lua_list_item" id="0x7f030050" />
-    <public type="layout" name="mili_top_bar_layout" id="0x7f030051" />
+    <public type="layout" name="mili_top_bar" id="0x7f030051" />
     <public type="layout" name="multi_devices_err" id="0x7f030052" />
     <public type="layout" name="person_info_finished" id="0x7f030053" />
     <public type="layout" name="person_info_fragment" id="0x7f030054" />
@@ -950,7 +950,7 @@
     <public type="id" name="searched_device_item_signal_bar" id="0x7f0a019f" />
     <public type="id" name="fragment_setting_sliding_layout" id="0x7f0a01a0" />
     <public type="id" name="dragView_id" id="0x7f0a01a1" />
-    <public type="id" name="mili_top_bar" id="0x7f0a01a2" />
+    <public type="id" name="mili_top_bar_id" id="0x7f0a01a2" />
     <public type="id" name="device_find_bracelet" id="0x7f0a01a3" />
     <public type="id" name="device_find_bracelet_tv" id="0x7f0a01a4" />
     <public type="id" name="device_set_goal" id="0x7f0a01a5" />
