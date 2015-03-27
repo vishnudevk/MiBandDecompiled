@@ -59,8 +59,8 @@
     <item type="id" name="person_info_weight_picker">false</item>
     <item type="id" name="search_single_frame">false</item>
     <item type="id" name="toggle_display_mode_btn">false</item>
-    <item type="id" name="search_devices_title">false</item>
-    <item type="id" name="search_devices_info">false</item>
+    <item type="id" name="search_devices_title_id">false</item>
+    <item type="id" name="search_devices_info_id">false</item>
     <item type="id" name="search_single_area">false</item>
     <item type="id" name="searching_pie_chart">false</item>
     <item type="id" name="search_devices_mili_icon">false</item>
@@ -117,7 +117,7 @@
     <item type="id" name="days_view">false</item>
     <item type="id" name="update_apk_content">false</item>
     <item type="id" name="multi_devices_err_title">false</item>
-    <item type="id" name="bracelet_not_found_info">false</item>
+    <item type="id" name="bracelet_not_found_info_id">false</item>
     <item type="id" name="bracelet_icon">false</item>
     <item type="id" name="donot_bind_txt">false</item>
     <item type="id" name="bracelet_not_found_get_help">false</item>
@@ -137,7 +137,7 @@
     <item type="id" name="day_active_chart">false</item>
     <item type="id" name="dynamic_view">false</item>
     <item type="id" name="header_sync_tip">false</item>
-    <item type="id" name="share">false</item>
+    <item type="id" name="share_id">false</item>
     <item type="id" name="sleep_unwear_tip">false</item>
     <item type="id" name="mode_switch">false</item>
     <item type="id" name="float_sleep_info">false</item>
@@ -241,7 +241,7 @@
     <item type="id" name="setting_about_bracelet_firmware_value">false</item>
     <item type="id" name="setting_about_bracelet_bluetooth_value">false</item>
     <item type="id" name="setting_about_bracelet_bluetooth_address">false</item>
-    <item type="id" name="setting_feedback">false</item>
+    <item type="id" name="setting_feedback_id">false</item>
     <item type="id" name="split_line_1">false</item>
     <item type="id" name="setting_about_website">false</item>
     <item type="id" name="split_line_0">false</item>
@@ -253,7 +253,7 @@
     <item type="id" name="current_firmware_version">false</item>
     <item type="id" name="new_firmware_version">false</item>
     <item type="id" name="firmware_change_log">false</item>
-    <item type="id" name="firmware_upgrade">false</item>
+    <item type="id" name="firmware_upgrade_id">false</item>
     <item type="id" name="wheel">false</item>
     <item type="id" name="share_to_miliao_target_friends_fl">false</item>
     <item type="id" name="share_to_miliao_target_union_fl">false</item>
@@ -334,7 +334,7 @@
     <item type="id" name="device_battery_center_img">false</item>
     <item type="id" name="device_battery_day_text">false</item>
     <item type="id" name="device_battery_low_text">false</item>
-    <item type="id" name="multi_devices_info">false</item>
+    <item type="id" name="multi_devices_info_id">false</item>
     <item type="id" name="multi_devices_err_device_list_btn">false</item>
     <item type="id" name="multi_devices_err_search_again">false</item>
     <item type="id" name="welcom_page_title">false</item>
@@ -397,7 +397,7 @@
     <item type="id" name="device_unlock_screen">false</item>
     <item type="id" name="device_unlock_screen_text">false</item>
     <item type="id" name="device_unlock_split">false</item>
-    <item type="id" name="incoming_call_notify">false</item>
+    <item type="id" name="incoming_call_notify_id">false</item>
     <item type="id" name="incoming_call_notify_text">false</item>
     <item type="id" name="incoming_call_notify_switch">false</item>
     <item type="id" name="device_weixin_enter_ll">false</item>
@@ -421,7 +421,7 @@
     <item type="id" name="fakelistView">false</item>
     <item type="id" name="device_not_support_title">false</item>
     <item type="id" name="device_not_support_info">false</item>
-    <item type="id" name="system_not_support_info">false</item>
+    <item type="id" name="system_not_support_info_id">false</item>
     <item type="id" name="exit">false</item>
     <item type="id" name="active_step">false</item>
     <item type="id" name="active_step_value">false</item>
@@ -444,7 +444,7 @@
     <item type="id" name="active_step_chart">false</item>
     <item type="id" name="center">false</item>
     <item type="id" name="step_container">false</item>
-    <item type="id" name="step">false</item>
+    <item type="id" name="step_id">false</item>
     <item type="id" name="step_unit">false</item>
     <item type="id" name="step_tip">false</item>
     <item type="id" name="rl_info">false</item>
@@ -482,11 +482,11 @@
     <item type="id" name="week_tv">false</item>
     <item type="id" name="day_repeat_select_mark">false</item>
     <item type="id" name="content_txt">false</item>
-    <item type="id" name="action_pop_my_bracelet">false</item>
-    <item type="id" name="action_pop_smart_alarms">false</item>
-    <item type="id" name="action_pop_person_info">false</item>
+    <item type="id" name="action_pop_my_bracelet_id">false</item>
+    <item type="id" name="action_pop_smart_alarms_id">false</item>
+    <item type="id" name="action_pop_person_info_id">false</item>
     <item type="id" name="action_pop_screen_unlock">false</item>
-    <item type="id" name="action_pop_about">false</item>
-    <item type="id" name="action_local_ota">false</item>
+    <item type="id" name="action_pop_about_id">false</item>
+    <item type="id" name="action_local_ota_id">false</item>
     <item type="id" name="dev_mode">false</item>
 </resources>

@@ -2,7 +2,7 @@
 <FrameLayout android:background="@color/main_ui_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <cn.com.smartdevices.bracelet.lua.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/fragment_setting_sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" sothree:panelHeight="250.0dip" sothree:shadowHeight="0.0dip" sothree:paralaxOffset="0.0dip" sothree:dragView="@id/dragView" xmlns:sothree="http://schemas.android.com/apk/res-auto">
-        <include android:id="@id/mili_top_bar" layout="@layout/mili_top_bar" />
+        <include android:id="@id/mili_top_bar" layout="@layout/mili_top_bar_layout" />
         <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <LinearLayout android:id="@id/device_find_bracelet" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:paddingTop="6.0dip" android:paddingRight="@dimen/mili_margin" android:paddingBottom="6.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
@@ -44,7 +44,7 @@
                     <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_indicator_right_arrow" />
                 </LinearLayout>
                 <include android:id="@id/device_unlock_split" layout="@layout/split_line_with_margin" />
-                <LinearLayout android:id="@id/incoming_call_notify" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
+                <LinearLayout android:id="@id/incoming_call_notify_id" android:background="@drawable/bg_item" android:paddingLeft="@dimen/mili_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stroke_width_minus" android:layout_marginBottom="@dimen/stroke_width_minus" android:minHeight="@dimen/item_height">
                     <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
                         <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/incoming_call_notify" style="@style/ListItemTitleText" />
                         <TextView android:id="@id/incoming_call_notify_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ListItemValueText" />

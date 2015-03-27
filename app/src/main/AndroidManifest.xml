@@ -119,5 +119,5 @@
         <meta-data android:name="UMENG_APPKEY" android:value="53eb6765fd98c559b700389d"/>
         <meta-data android:name="UMENG_CHANNEL" android:value="Normal"/>
         <provider android:authorities="cn.com.smartdevices.bracelet" android:exported="true" android:name="cn.com.smartdevices.bracelet.db.BraceletProvider"/>
-    </application>
+    </application>git p
 </manifest>

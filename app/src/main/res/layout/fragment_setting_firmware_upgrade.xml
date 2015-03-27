@@ -16,6 +16,6 @@
     </LinearLayout>
     <View android:background="@color/item_stroke" android:layout_width="fill_parent" android:layout_height="@dimen/round_bg_stroke" />
     <FrameLayout android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <Button android:textColor="@android:color/white" android:id="@id/firmware_upgrade" android:background="@drawable/bg_item_round_solid" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:text="升级固件" />
+        <Button android:textColor="@android:color/white" android:id="@id/firmware_upgrade_id" android:background="@drawable/bg_item_round_solid" android:layout_width="fill_parent" android:layout_height="@dimen/item_height" android:text="升级固件" />
     </FrameLayout>
 </LinearLayout>

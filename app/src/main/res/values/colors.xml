@@ -13,7 +13,7 @@
     <color name="bg_mode_sleep">#ff232752</color>
     <color name="bg_mode_step">#ff1898c4</color>
     <color name="bg_mode_unbind">#ff3c444f</color>
-    <color name="blue">#ff10b4ed</color>
+    <color name="blue_color">#ff10b4ed</color>
     <color name="btn_blue_color">#ff249dc7</color>
     <color name="btn_blue_stroke_color">#ff52b2d3</color>
     <color name="button_cancel_color">#ff737373</color>
@@ -37,7 +37,7 @@
     <color name="game_color_info">#b20096d5</color>
     <color name="goals_solid_color">#fff3f3f3</color>
     <color name="goals_stroke_color">#ffbfbfbf</color>
-    <color name="green">#ff57c039</color>
+    <color name="green_color">#ff57c039</color>
     <color name="grey_trans">#44ffffff</color>
     <color name="highlight">#ff1898c4</color>
     <color name="highlight_pressed">#ffdd5300</color>
@@ -65,14 +65,14 @@
     <color name="normal_pressed">#ffcecece</color>
     <color name="normal_pressed_stroke_color">#ffbfbfc0</color>
     <color name="normal_stroke_color">#ffbfbfc0</color>
-    <color name="orange">#ffff6d0c</color>
+    <color name="orange_color">#ffff6d0c</color>
     <color name="person_page_digit_color">#ccffffff</color>
     <color name="person_page_user_info_main_color">#ffffffff</color>
     <color name="person_page_user_info_sub_color">#88ffffff</color>
     <color name="pressed">#ff2198c6</color>
     <color name="primary_text">#ff787d80</color>
     <color name="primary_text_inverse">#ffffffff</color>
-    <color name="red">#ffee2a41</color>
+    <color name="red_color">#ffee2a41</color>
     <color name="share_divide_failed">#ffa9cce3</color>
     <color name="share_divide_succ">#ffffd5af</color>
     <color name="share_unit_color">#b3ffffff</color>
