@@ -30,6 +30,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.+'
+    compile 'com.edmodo:cropper:1.0.1'
     compile files('src/main/libs/classes-dex2jar1.jar')
     compile files('src/main/libs/achartengine-1.1.0.jar')
     compile files('src/main/libs/locSDK_4.2.jar')

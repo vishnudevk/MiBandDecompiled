@@ -15,14 +15,16 @@
     <view android:scrollbars="none" android:fadingEdgeLength="25.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" android:requiresFadingEdge="vertical" class="cn.com.smartdevices.bracelet.ui.StatisticFragment$FadingEdgeScrollView">
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <FrameLayout android:layout_width="fill_parent" android:layout_height="355.0dip">
-                <cn.com.smartdevices.bracelet.chart.DynamicDetailChartView android:id="@id/day_active_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <cn.com.smartdevices.bracelet.chart.DynamicDetailChartView android:id="@+id/day_active_chart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                 <include android:visibility="invisible" layout="@layout/fragment_dynamic_detail_float_info_sleep" />
                 <include android:visibility="invisible" layout="@layout/fragment_dynamic_detail_float_info_step" />
                 <TextView android:textSize="15.0sp" android:textColor="#ffaaabb6" android:layout_gravity="center_horizontal" android:id="@id/sleep_unwear_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/no_wear_bracelet" />
             </FrameLayout>
             <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <include layout="@layout/fragment_dynamic_detail_info_sleep" />
-                <include layout="@layout/fragment_dynamic_detail_info_step" />
+
+                <include layout="@layout/fragment_dynamic_detail_info_step"
+                    android:layout_gravity="center" />
             </FrameLayout>
         </LinearLayout>
     </view>

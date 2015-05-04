@@ -11,11 +11,6 @@
     <public type="attr" name="snap" id="0x7f010008" />
     <public type="attr" name="strokeColor" id="0x7f010009" />
     <public type="attr" name="gap" id="0x7f01000a" />
-    <public type="attr" name="guidelines" id="0x7f01000b" />
-    <public type="attr" name="fixAspectRatio" id="0x7f01000c" />
-    <public type="attr" name="aspectRatioX" id="0x7f01000d" />
-    <public type="attr" name="aspectRatioY" id="0x7f01000e" />
-    <public type="attr" name="imageResource" id="0x7f01000f" />
     <public type="attr" name="swipeable" id="0x7f010010" />
     <public type="attr" name="left_text" id="0x7f010011" />
     <public type="attr" name="right_text" id="0x7f010012" />

@@ -11,15 +11,6 @@
     <attr name="snap" format="boolean" />
     <attr name="strokeColor" format="color" />
     <attr name="gap" format="dimension" />
-    <attr name="guidelines">
-        <enum name="on" value="2" />
-        <enum name="onTouch" value="1" />
-        <enum name="off" value="0" />
-    </attr>
-    <attr name="fixAspectRatio" format="boolean" />
-    <attr name="aspectRatioX" format="integer" />
-    <attr name="aspectRatioY" format="integer" />
-    <attr name="imageResource" format="reference" />
     <attr name="swipeable" format="boolean" />
     <attr name="left_text" format="string" />
     <attr name="right_text" format="string" />
